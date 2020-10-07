@@ -15,6 +15,8 @@ Created on Sun Aug  2 13:54:45 2020
 import os 
 import gzip
 import datetime
+import py_compile
+py_compile.compile('CreatingVerfFile_PY2.6_Version.py')
 
 def get_date():
     today = datetime.datetime.now()
